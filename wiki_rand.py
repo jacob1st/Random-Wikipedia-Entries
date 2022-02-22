@@ -1,13 +1,5 @@
 import requests
 from bs4 import BeautifulSoup as BS
-# import regex
-
-
-# def get_title(header):
-#     s = str(header)
-#     header_content = regex.search(">.*<", s)
-#     spliced_content = header_content.group()
-#     return spliced_content[1:-1]
 
 def random_request():
     # gets a random wikipedia article
